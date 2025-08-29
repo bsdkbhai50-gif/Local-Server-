@@ -7,7 +7,7 @@ import datetime
 
 HOST = ""   # all interfaces
 PORT = 8080
-UPLOAD_DIR = "/"
+UPLOAD_DIR = "/" # Set your 📁 file path
 
 if not os.path.exists(UPLOAD_DIR):
     os.makedirs(UPLOAD_DIR)
