@@ -7,7 +7,7 @@ import datetime
 
 HOST = ""   # all interfaces
 PORT = 8080
-BASE_DIR = "/storage/emulated/0/Download/Server/"  # <- tumhara base folder
+BASE_DIR = "/home"  # <- your Folder location where to save.
 
 if not os.path.exists(BASE_DIR):
     os.makedirs(BASE_DIR)
